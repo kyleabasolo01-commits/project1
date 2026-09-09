@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>My Portfolio - Gallery</title>
+    <link rel="icon" type="image/jpeg" href="images/icon.jpg">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+  <h2>My Portfolio
+    </h2>
+      <div class="nav-links">
+        <a href="index.html"> Home
+          </a>
+            <a href="gallery.html"> Gallery
+            </a>
+          <a href="about.html"> About
+        </a>
+      <a href="contact.html"> Contact
+    </a>
+  </div>
+</nav>
+
+<section class="page">
+
+<h1> KYLE'S GALLERY
+  </h1>
+<p> explore what inside my gallery.
+  </p>
+
+<div class="gallery">
+
+<div class="card">
+  <h2> HI! I'm Kyle
+    </h2>
+  <img src="images/profile.jpg" alt="My Profile" onclick="openImage(this)">
+</div>
+
+<div class="card">
+  <h2>My Project</h2>
+    <img src="images/app1.png" alt="Activity 2" onclick="openImage(this)">
+      <h3> PERSONAL FOOD APP
+    </h3>
+    <p> Designing food app using canva.
+  </p>
+</div>
+
+<div class="card">
+  <h2>My Project</h2>
+    <img src="images/frontend.jpg" alt="Activity 2" onclick="openImage(this)">
+      <h3> FRONT END DESIGN
+      </h3>
+    <p> practicing of front end design and output of PCIT03.
+  </p>
+</div>
+
+<div class="card">
+  <h2>Practical</h2>
+    <img src="images/pc.jpg" alt="My Friends" onclick="openImage(this)">
+      <h3> Disassemble and Assemble
+      </h3>
+    <p> Practical at PFIT 01 disassemble and assemble system Unit
+  </p>
+</div>
+           
+<div class="card">
+  <h2> HOUSE OF TAKIRUB
+    </h2>
+      <div class="card-images">
+        <img src="images/house1.jpg" alt="House of Takirub 1" onclick="openImage(this)">
+          <img src="images/house2.jpg" alt="House of Takirub 2" onclick="openImage(this)">
+          <img src="images/house3.jpg" alt="House of Takirub 2" onclick="openImage(this)">
+        <img src="images/house4.jpg" alt="House of Takirub 4" onclick="openImage(this)">
+      </div>
+    <p> My COF na grabe ka buotan.
+  </p>
+</div>
+
+<div class="card">
+  <h2>Me and Jenny</h2>
+    <img src="images/lang.jpg" alt="Project 2" onclick="openImage(this)">
+    <p> My classmate last year.
+  </p>
+</div>
+
+<div class="card">
+  <img src="images/sports.jpg" alt="My Sports" onclick="openImage(this)">
+    <h3> My sports
+      </h3>
+    <p> I love playing basketball.
+  </p>
+</div>
+
+<div class="card">
+  <img src="images/bsit.jpg" alt="Activity 1" onclick="openImage(this)">
+    <h3> Tiklos Dancers
+      </h3>
+    <p> BSIT 2-B with adviser.
+  </p>
+</div>
+
+</section>
+
+<div id="imageModal" class="modal">
+  <span class="close" onclick="closeImage()"> &times;
+    </span>
+  <img id="modalImage" class="modal-content" alt="Large Image">
+</div>
+
+<footer>
+  <p>
+    © <span id="year"></span> kyle portfolio
+  </p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
