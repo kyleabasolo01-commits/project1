@@ -1,3 +1,6 @@
+/* =========================
+   RESET
+========================= */
 
 * {
     margin: 0;
@@ -5,7 +8,9 @@
     box-sizing: border-box;
 }
 
-/* BODY */
+/* =========================
+   BODY
+========================= */
 
 body {
     font-family: Arial, sans-serif;
@@ -46,7 +51,9 @@ body {
     transition: 0.3s;
 }
 
-/* NAVIGATION */
+/* =========================
+   NAVIGATION
+========================= */
 
 nav {
     background: rgba(5, 0, 0, 0.92);
@@ -94,7 +101,9 @@ nav h2 {
         0 0 10px rgba(255, 0, 0, 0.7);
 }
 
-/* THEME BUTTON*/
+/* =========================
+   THEME BUTTON
+========================= */
 
 #themeButton {
     border: 1px solid #ff1a1a;
@@ -122,7 +131,9 @@ nav h2 {
         0 0 20px rgba(255, 0, 0, 0.7);
 }
 
-/*HOME*/
+/* =========================
+   HOME
+========================= */
 
 .home {
     min-height: 85vh;
@@ -194,7 +205,9 @@ nav h2 {
     color: #d9c7c7;
 }
 
-/* BUTTON */
+/* =========================
+   BUTTONS
+========================= */
 
 .buttons {
     display: flex;
@@ -250,7 +263,9 @@ nav h2 {
         0 0 25px rgba(255, 0, 0, 0.6);
 }
 
-/*GENERAL PAGE*/
+/* =========================
+   GENERAL PAGE
+========================= */
 
 .page {
     min-height: 80vh;
@@ -272,7 +287,9 @@ nav h2 {
     color: #d9c7c7;
 }
 
-/* GALLERY */
+/* =========================
+   GALLERY
+========================= */
 
 .gallery {
     margin-top: 40px;
@@ -314,7 +331,9 @@ nav h2 {
         0 0 25px rgba(255, 0, 0, 0.3);
 }
 
-/* SINGLE IMAGE*/
+/* =========================
+   SINGLE IMAGE
+========================= */
 
 .card img {
     width: 100%;
@@ -334,7 +353,9 @@ nav h2 {
     transform: scale(1.02);
 }
 
-/*MULTIPLE IMAGES*/
+/* =========================
+   MULTIPLE IMAGES
+========================= */
 
 .card-images {
     display: grid;
@@ -368,7 +389,9 @@ nav h2 {
         0 0 20px rgba(255, 0, 0, 0.7);
 }
 
-/*CARD TITLE*/
+/* =========================
+   CARD TITLE
+========================= */
 
 .card h3 {
     margin-top: 15px;
@@ -386,7 +409,9 @@ nav h2 {
     color: #d9c7c7;
 }
 
-/* IMAGE MODAL */
+/* =========================
+   IMAGE MODAL
+========================= */
 
 .modal {
     display: none;
@@ -444,7 +469,9 @@ nav h2 {
     color: #ff1a1a;
 }
 
-/* ABOUT */
+/* =========================
+   ABOUT
+========================= */
 
 .about .profile {
     width: 180px;
@@ -480,7 +507,9 @@ nav h2 {
     color: #d9c7c7;
 }
 
-/* SKILLS */
+/* =========================
+   SKILLS
+========================= */
 
 .skills {
     display: flex;
@@ -527,7 +556,9 @@ nav h2 {
         0 0 20px rgba(255, 0, 0, 0.35);
 }
 
-/* CONTACT FORM */
+/* =========================
+   CONTACT FORM
+========================= */
 
 form {
     max-width: 600px;
@@ -632,7 +663,9 @@ form button:hover {
     transform: translateY(-2px);
 }
 
-/* CONTACT INFO */
+/* =========================
+   CONTACT INFO
+========================= */
 
 .contact-info {
     max-width: 600px;
@@ -681,7 +714,9 @@ form button:hover {
         0 0 10px rgba(255, 0, 0, 0.7);
 }
 
-/* FOOTER */
+/* =========================
+   FOOTER
+========================= */
 
 footer {
     background: #040000;
@@ -695,7 +730,9 @@ footer {
     border-top: 1px solid #5c0000;
 }
 
-/* STRENGTH & WEAKNESS */
+/* =========================
+   STRENGTH & WEAKNESS
+========================= */
 
 .strength-weakness {
     display: grid;
@@ -759,7 +796,9 @@ footer {
     color: #d9c7c7;
 }
 
-/* PROFILE CARD */
+/* =========================
+   PROFILE CARD
+========================= */
 
 .profile-card {
     width: 750px;
@@ -771,7 +810,7 @@ footer {
     background:
         linear-gradient(
             145deg,
-            #180e00,
+            #180000,
             #070000
         );
 
@@ -794,14 +833,16 @@ footer {
         0 0 30px rgba(255, 0, 0, 0.25);
 }
 
-/* CARD HEADER */
+/* =========================
+   CARD HEADER
+========================= */
 
 .card-header {
     background:
         linear-gradient(
             135deg,
-            #e20303,
-            #080000
+            #120000,
+            #500000
         );
 
     color: #ffffff;
@@ -817,7 +858,9 @@ footer {
     border-bottom: 1px solid #800000;
 }
 
-/* MAIN CONTENT */
+/* =========================
+   MAIN CONTENT
+========================= */
 
 .card-content {
     display: flex;
@@ -829,7 +872,9 @@ footer {
     padding: 30px;
 }
 
-/* PHOTO*/
+/* =========================
+   PHOTO
+========================= */
 
 .photo-box img {
     width: 180px;
@@ -844,13 +889,17 @@ footer {
         0 0 20px rgba(255, 0, 0, 0.3);
 }
 
-/* DETAILS */
+/* =========================
+   DETAILS
+========================= */
 
 .profile-details {
     flex: 1;
 }
 
-/*  INFORMATION ROW */
+/* =========================
+   INFORMATION ROW
+========================= */
 
 .info-row {
     display: grid;
@@ -863,7 +912,9 @@ footer {
     font-size: 18px;
 }
 
-/* LABELS */
+/* =========================
+   LABELS
+========================= */
 
 .label {
     font-weight: bold;
@@ -871,7 +922,9 @@ footer {
     color: #ff1a1a;
 }
 
-/* INFORMATION */
+/* =========================
+   INFORMATION
+========================= */
 
 .value {
     font-weight: bold;
@@ -879,7 +932,9 @@ footer {
     color: #ffffff;
 }
 
-/* SCROLLBAR */
+/* =========================
+   SCROLLBAR
+========================= */
 
 ::-webkit-scrollbar {
     width: 10px;
@@ -899,7 +954,9 @@ footer {
     background: #ff1a1a;
 }
 
-/* SELECTION */
+/* =========================
+   SELECTION
+========================= */
 
 ::selection {
     background: #e60000;
@@ -907,7 +964,9 @@ footer {
     color: #ffffff;
 }
 
-/*  MOBILE*/
+/* =========================
+   MOBILE
+========================= */
 
 @media (max-width: 600px) {
 
